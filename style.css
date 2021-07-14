@@ -1,0 +1,269 @@
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Futura", sans-serif;
+  font-size: 64px;
+  font-weight: normal;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: normal;
+  font-family: "Futura", sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Futura", sans-serif;
+}
+
+.profissao {
+  font-size: 24px;
+}
+
+.t60 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+}
+
+header {
+  background-color: white;
+  padding: 32px 64px;
+}
+
+.dados {
+  display: inline-block;
+  /* margin-bottom: 8px; */
+}
+
+.foto {
+  border: 4px solid #ffc700;
+  border-radius: 50%;
+  margin-bottom: -100px;
+  margin-right: 24px;
+}
+
+main {
+  padding: 40px 70px;
+  display: flex;
+}
+
+.coluna-menor {
+  margin-top: 48px;
+  width: 288px;
+  font-family: "Futura Bk BT", sans-serif;
+}
+
+.coluna-menor li {
+  margin-top: 32px;
+  display: flex;
+}
+
+.linha {
+  width: 80px;
+  border-top: 2px solid;
+  margin-top: 8px;
+}
+
+.experiencias .linha {
+  border-color: #4200ff;
+}
+
+.formacao .linha {
+  border-color: #ffc700;
+}
+
+.coluna-menor img {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.conteudo {
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.formacao {
+  margin-top: 32px;
+}
+
+.coluna-maior {
+  margin-left: 24px;
+}
+
+.coluna-maior h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+  font-family: "Futura Bk BT", sans-serif;
+}
+
+.habilidade {
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 12px;
+  width: 288px;
+}
+
+.habilidade h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+
+.habilidade p {
+  font-size: 16px;
+}
+
+.habilidade li {
+  margin-top: 24px;
+}
+
+.habilidade li:first-child {
+  margin-top: 0;
+}
+
+.progresso {
+  width: 100%;
+  display: flex;
+}
+
+.barra {
+  /* margin-top: 2px; */
+  width: 20%;
+  height: 4px;
+  background-color: #4200ff;
+}
+
+.incompleto {
+  opacity: 0.2;
+}
+
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social {
+  width: 288px;
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 12px;
+  display: grid;
+}
+
+.social a {
+  text-decoration: none;
+  background-color: #4200ff;
+  color: white;
+  padding: 8px 24px;
+  font-family: "Futura Md BT", sans-serif;
+  border-radius: 4px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.social h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.social p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.social img {
+  width: 290px;
+  height: 170px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.arquitetura {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.arquit {
+  width: 288px;
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 12px;
+  display: grid;
+}
+
+.arquit a {
+  text-decoration: none;
+  background-color: #4200ff;
+  color: white;
+  padding: 8px 24px;
+  font-family: "Futura Md BT", sans-serif;
+  border-radius: 4px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.arquit h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.arquit p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.arquit img {
+  width: 290px;
+  height: 170px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.rodape {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100px;
+  font-family: "Futura Md BT", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+}
+
+.rodape p {
+  margin: 3px;
+  text-align: center;
+  color: white;
+  font-family: "Futura Bk BT", sans-serif;
+  font-weight: none;
+}
